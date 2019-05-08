@@ -2,6 +2,6 @@
     "version": 2,
     "name": "eat-well-backend",
     "builds": [
-        { "src": "*.js", "use": "@now/node" }
+        { "src": "**/*.js", "use": "@now/node" }
     ]
 }
