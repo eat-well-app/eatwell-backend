@@ -15,7 +15,4 @@ server.get("/", (req, res) => {
     res.json({message: 'Server up!'})
 })
 
-server.listen(port, () => {
-    console.log(`Server now listening on Port ${port}`);
-  });
-  
+module.exports = server
