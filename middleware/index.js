@@ -14,4 +14,4 @@ const configureMiddleware = server => {
     server.use(require("body-parser").urlencoded({ extended: false }));
 }
 
-module.exports = configureMiddleware;
+module.exports = { configureMiddleware };
